@@ -7,7 +7,7 @@ class Contador:
 
     def __iter__(self):
         # el propio objeto es el iterador 
-        return self [cite: 86]
+        return self 
 
     def __next__(self):
         if self.actual <= self.fin:
